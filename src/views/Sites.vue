@@ -66,11 +66,11 @@ export default {
       columns:[
         {
          label: 'SiteName',
-         field: 'title',
+         field: 'siteName',
         },
         {
           label: 'SiteComments',
-          field: 'body',
+          field: 'siteComments',
         },
         {
           label: 'Action',
