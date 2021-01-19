@@ -14,18 +14,18 @@
       >
 
       <div slot="table-actions">
-        <router-link :to="{path:'/createSite/'}"><button class="btn btn-outline-primary">Create</button></router-link>
+        <router-link :to="{path:'/create-site/'}"><button class="btn btn-outline-primary">Create</button></router-link>
         <button class="btn btn-outline-primary" ><i class="fa fa-download"></i></button>
       </div>
 
        <template slot="table-row" slot-scope="props">
         <span v-if="props.column.field == 'action'">
-          <router-link to="/editSite">
+          <router-link to="/edit-site">
             <button class="btn-primary btn-small btn">
               <i class="fa fa-edit"></i>
             </button>
           </router-link>
-          <router-link to="/viewSite">
+          <router-link to="/view-site">
             <button class="btn-info btn-small btn">
               <i class="fa fa-eye"></i>
             </button>
