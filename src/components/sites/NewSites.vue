@@ -34,18 +34,34 @@ export default {
     columns:[
         {
          label: 'SiteName',
-         field: 'title',
+         field: 'siteName',
         },
         {
           label: 'SiteComments',
-          field: 'body',
+          field: 'siteComments',
         },
         {
           label: 'Action',
           field: 'action',
         },
-    ],
-    posts: [],
+      ],
+      sites: [
+        {
+          id: 1,
+          SiteName: 'Kazakhstan',
+          SiteComments: 'qwertyuiop'
+        },
+        {
+          id: 2,
+          SiteName: 'Russia',
+          SiteComments: 'qwertyuiop'
+        },
+        {
+          id: 3,
+          SiteName: 'USA',
+          SiteComments: 'qwertyuiop'
+        }
+      ],
     // newPost:{
     //  title:"",
     //   body:""   
