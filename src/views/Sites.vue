@@ -2,7 +2,7 @@
   <div>
     <vue-good-table
       :columns="columns"
-      :rows="posts  "
+      :rows="sites"
       :line-numbers="true"
       :search-options="{
         enabled: true,
@@ -13,7 +13,7 @@
       >
 
       <div slot="table-actions">
-        <router-link :to="{path:'/create-site/'}"><button class="btn btn-outline-primary">Create</button></router-link>
+        <router-link :to="{path:'/new-site/'}"><button class="btn btn-outline-primary">Create</button></router-link>
         <button class="btn btn-outline-primary" ><i class="fa fa-download"></i></button>
       </div>
 
@@ -24,12 +24,12 @@
               <i class="fa fa-edit"></i>
             </button>
           </router-link>
-          <router-link to="/view-site">
+          <router-link to="/show-site">
             <button class="btn-info btn-small btn">
               <i class="fa fa-eye"></i>
             </button>
           </router-link>
-          <button class="btn-danger btn-small btn" @click="deletePost(posts.data.id)">
+          <button class="btn-danger btn-small btn">
             <i class="fa fa-trash"></i>
           </button>
         </span>
@@ -66,11 +66,11 @@ export default {
       columns:[
         {
          label: 'SiteName',
-         field: 'siteName',
+         field: 'title',
         },
         {
           label: 'SiteComments',
-          field: 'siteComments',
+          field: 'body',
         },
         {
           label: 'Action',
