@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="editPage">
       <h1>Edit Page</h1>
       <form>
         <div class="form-group">
@@ -22,5 +22,8 @@ export default {
 </script>
 
 <style>
-
+.editPage{
+    width: 40%;
+    margin: auto;
+}
 </style>
