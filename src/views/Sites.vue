@@ -66,11 +66,11 @@ export default {
       columns:[
         {
          label: 'SiteName',
-         field: 'title',
+         field: 'siteName',
         },
         {
           label: 'SiteComments',
-          field: 'body',
+          field: 'siteComments',
         },
         {
           label: 'Action',
@@ -80,18 +80,18 @@ export default {
       sites: [
         {
           id: 1,
-          title: 'Kazakhstan',
-          body: 'qwertyuiop'
+          siteName: 'Kazakhstan',
+          siteComments: 'qwertyuiop'
         },
         {
           id: 2,
-          title: 'Russia',
-          body: 'qwertyuiop'
+          siteName: 'Russia',
+          siteComments: 'qwertyuiop'
         },
         {
           id: 3,
-          title: 'USA',
-          body: 'qwertyuiop'
+          siteName: 'USA',
+          siteComments: 'qwertyuiop'
         }
       ],
       paginationOptions: {
