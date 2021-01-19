@@ -61,17 +61,17 @@ export default new Router({
       component: Sites
     },
     {
-      path: '/createSite',
+      path: '/create-site',
       name: 'CreateSite',
       component: () => import(/* webpackChunkName: "about" */ '../components/CreateSite.vue')
     },
     {
-      path: '/editSite',
+      path: '/edit-site',
       name: 'EditSite',
       component: () => import(/* webpackChunkName: "about" */ '../components/EditSite.vue')
     },
     {
-      path: '/viewSite',
+      path: '/view-site',
       name: 'ViewSite',
       component: () => import(/* webpackChunkName: "about" */ '../components/ViewSite.vue')
     },
