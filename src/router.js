@@ -11,7 +11,7 @@ import Utilizers from './views/Utilizers.vue';
 import ShowUtilizer from './components/utilizer/ShowUtilizer.vue';
 import NewUtilizer from './components/utilizer/NewUtilizer.vue';
 import EditUtilizer from './components/utilizer/EditUtilizer.vue';
-import Sites from '../views/Sites.vue'
+import Sites from './views/Sites.vue'
 
 
 Vue.use(Router);
@@ -61,9 +61,9 @@ export default new Router({
       component: Sites
     },
     {
-      path: '/create-site',
-      name: 'CreateSite',
-      component: () => import(/* webpackChunkName: "about" */ '../components/CreateSite.vue')
+      path: '/new-site',
+      name: 'NewSite',
+      component: () => import(/* webpackChunkName: "about" */ '../components/NewSite.vue')
     },
     {
       path: '/edit-site',
@@ -71,9 +71,9 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ '../components/EditSite.vue')
     },
     {
-      path: '/view-site',
-      name: 'ViewSite',
-      component: () => import(/* webpackChunkName: "about" */ '../components/ViewSite.vue')
+      path: '/show-site',
+      name: 'ShowSite',
+      component: () => import(/* webpackChunkName: "about" */ '../components/ShowSite.vue')
     },
     {
       path: '/utilizers',
