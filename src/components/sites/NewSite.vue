@@ -31,37 +31,6 @@
 export default {
     name:'NewSite',
     data: () => ({
-    columns:[
-        {
-         label: 'SiteName',
-         field: 'siteName',
-        },
-        {
-          label: 'SiteComments',
-          field: 'siteComments',
-        },
-        {
-          label: 'Action',
-          field: 'action',
-        },
-      ],
-      sites: [
-        {
-          id: 1,
-          SiteName: 'Kazakhstan',
-          SiteComments: 'qwertyuiop'
-        },
-        {
-          id: 2,
-          SiteName: 'Russia',
-          SiteComments: 'qwertyuiop'
-        },
-        {
-          id: 3,
-          SiteName: 'USA',
-          SiteComments: 'qwertyuiop'
-        }
-      ],
     // newPost:{
     //  title:"",
     //   body:""   
