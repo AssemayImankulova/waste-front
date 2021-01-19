@@ -31,5 +31,11 @@ export default function () {
     to: {
       name: 'utilizers',
     },
+  },{
+    title: 'Sites',
+    htmlBefore: '<i class="material-icons"> home_work</i>',
+    to: {
+      name: 'Sites',
+    }, 
   }];
 }
