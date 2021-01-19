@@ -11,7 +11,7 @@ import Utilizers from './views/Utilizers.vue';
 import ShowUtilizer from './components/utilizer/ShowUtilizer.vue';
 import NewUtilizer from './components/utilizer/NewUtilizer.vue';
 import EditUtilizer from './components/utilizer/EditUtilizer.vue';
-
+import Sites from './views/Sites.vue';
 
 Vue.use(Router);
 
@@ -54,7 +54,11 @@ export default new Router({
       name: 'users',
       component: Users,
     },
-    
+    {
+      path: '/sites',
+      name: 'sites',
+      component: Sites,
+    },
     {
       path: '/utilizers',
       name: 'utilizers',
