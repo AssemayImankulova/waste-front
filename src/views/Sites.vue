@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div>
     <vue-good-table
       :columns="columns"
       :rows="posts  "
@@ -9,7 +9,6 @@
         placeholder: 'Введите текст для поиска',
       }"
       :pagination-options="paginationOptions"
-      max-height="300px"
       compactMode
       >
 
