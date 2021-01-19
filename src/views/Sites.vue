@@ -77,22 +77,7 @@ export default {
           field: 'action',
         },
       ],
-      paginationOptions: {
-        enabled: true,
-        mode: 'pages',
-        perPage: 5,
-        position: 'bottom',
-        perPageDropdown: [5, 10, 20],
-        dropdownAllowAll: false,
-        setCurrentPage: 1,
-        nextLabel: '>',
-        prevLabel: '<',
-        rowsPerPageLabel: 'Строк на странице',
-        ofLabel: '/',
-        pageLabel: 'стр.', // for 'pages' mode
-        allLabel: 'Все',
-      },
-      posts: [
+      sites: [
         {
           id: 1,
           title: 'Kazakhstan',
@@ -109,6 +94,21 @@ export default {
           body: 'qwertyuiop'
         }
       ],
+      paginationOptions: {
+        enabled: true,
+        mode: 'pages',
+        perPage: 5,
+        position: 'bottom',
+        perPageDropdown: [5, 10, 20],
+        dropdownAllowAll: false,
+        setCurrentPage: 1,
+        nextLabel: '>',
+        prevLabel: '<',
+        rowsPerPageLabel: 'Строк на странице',
+        ofLabel: '/',
+        pageLabel: 'стр.', // for 'pages' mode
+        allLabel: 'Все',
+      },
       // deletePostMutation:`mutation ($id: ID!) 
       //   {
       //     deletePost(id: $id)
