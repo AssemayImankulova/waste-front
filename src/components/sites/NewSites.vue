@@ -29,7 +29,7 @@
 //     }
 //   }`
 export default {
-    name:'CreateSite',
+    name:'NewSite',
     data: () => ({
     columns:[
         {
